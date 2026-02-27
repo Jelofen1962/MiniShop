@@ -1,0 +1,131 @@
+@import "./colors.css";
+@import "./fonts.css";
+
+body {
+    font-family: "SF Both";
+    margin: 0;
+}
+
+.icon {
+    height: 30px;
+    transition: 250ms ease;
+}
+
+.topicon {
+    margin: 0 -20px 0 10px;
+}
+
+.rotated {
+    transform: rotate(45deg);
+    transition: 250ms ease;
+}
+
+.form {
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.label {
+    font-size: 14px;
+    color: var(--color-stone-500);
+}
+
+.longtext {
+}
+
+input {
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: var(--color-stone-100);
+    font-size: clamp(16px, 2vw, 18px);
+    padding: clamp(12px, 3vw, 50px);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.container {
+    justify-self: center;
+    margin: 10px 0;
+    width: 95vw;
+    border-radius: 15px;
+    background-color: var(--color-stone-300);
+}
+
+.hide {
+    opacity: 0;
+    transition: 200ms ease;
+    visibility: hidden;
+}
+
+.Header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+    width: 95vw;
+    border-radius: 15px;
+    background-color: var(--color-stone-300);
+}
+
+.hasIcon {
+    display: flex;
+    align-items: center;
+    transition: 250ms ease;
+}
+
+.hasIcon::before {
+    margin: 0 10px 0 10px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: var(--before-img) no-repeat center/contain;
+    transition: 250ms ease;
+}
+
+.Navmenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    transition: 200ms ease;
+}
+
+.bold {
+    font-weight: 500 !important;
+    color: var(--color-stone-900) !important;
+}
+
+.clicked {
+    opacity: 0.5;
+    scale: 0.9;
+}
+
+.credit {
+    color: var(--color-stone-600);
+    font-size: 12;
+    margin-left: 3px;
+}
+.Footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    position: absolute;
+    bottom: 10px;
+    width: 95vw;
+    border-radius: 15px;
+    background-color: var(--color-stone-300);
+}

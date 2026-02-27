@@ -1,3 +1,4 @@
 <?php
-include './widget/header.php'
+header("Location: pages/home.php");
+exit();
 ?>

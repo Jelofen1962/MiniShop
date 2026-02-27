@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Ultralight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Heavy.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0600-06FF, /* Arabic */ U+0750-077F, /* Arabic Supplement */ U+08A0-08FF, /* Arabic Extended-A */ U+FB50-FDFF, /* Arabic Presentation Forms-A */ U+FE70-FEFF;   /* Arabic Presentation Forms-B */
+    src: url("assets/sf/SF Arabic VF.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+
+/* Regular (default) */
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0000-00FF, /* Basic Latin */ U+0100-024F;   /* Latin Extended */
+    src: url('assets/poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Medium */
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0000-00FF, /* Basic Latin */ U+0100-024F;   /* Latin Extended */
+    src: url('assets/poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+/* SemiBold */
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0000-00FF, /* Basic Latin */ U+0100-024F;   /* Latin Extended */
+    src: url('assets/poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Bold */
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0000-00FF, /* Basic Latin */ U+0100-024F;   /* Latin Extended */
+    src: url('assets/poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Black */
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0000-00FF, /* Basic Latin */ U+0100-024F;   /* Latin Extended */
+    src: url('assets/poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Italic example */
+@font-face {
+    font-family: "SF Both";
+    unicode-range: U+0000-00FF, /* Basic Latin */ U+0100-024F;   /* Latin Extended */
+    src: url('assets/poppins/Poppins-RegularItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: block;
+}
